@@ -1,0 +1,9 @@
+#bee_transition {
+    display: block;
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background: url(img/bee.gif) no-repeat center center / cover;
+    top: 0;
+    right: 0;
+}

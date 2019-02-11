@@ -1,0 +1,12 @@
+.bee_transition {
+    animation-name: passBy;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    animation-direction: alternate; 
+    animation-timing-function: ease;
+}
+@keyframes passBy {
+    0%   {right:0; top:0; transform: rotate(0deg);}
+    50%  {width: 50%; height: 50%; right:20%; top:25%; transform: rotate(-180deg);}
+    100% {right:150%; top:150px; transform: rotate(0deg);}
+  }
